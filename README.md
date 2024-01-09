@@ -1,6 +1,6 @@
 ## Data Structure
 
-这个项目的内容是使用 TypeScript 实现常见的数据结构.
+使用 TypeScript 实现常见的数据结构.
 This project is about implements of Data Structures by TypeScript.
 
 ### Content
