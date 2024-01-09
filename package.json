@@ -1,0 +1,20 @@
+{
+  "name": "data-structure",
+  "version": "1.0.0",
+  "description": "implements of data structures by typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "DataStructure"
+  ],
+  "author": "feixianxing",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
