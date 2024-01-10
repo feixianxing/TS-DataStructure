@@ -7,6 +7,9 @@ export class MyArray<T>{
     private size: number;
     private data: T[];
 
+    constructor();
+    constructor(param: number);
+    constructor(params: T[]);
     constructor(params?: number | T[]) {
         if (Array.isArray(params)) {
             this.data = params;
@@ -224,7 +227,7 @@ export class MyArray<T>{
                 res += ', ';
             }
         }
-        res += ']\n';
+        res += ']';
         return res;
     }
 }
