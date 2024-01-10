@@ -211,7 +211,7 @@ export class LinkedList<T>{
             res += `${curr.value} -> `;
             curr = curr.next;
         }
-        res += 'NULL\n';
+        res += 'NULL';
         
         return res;
     }
